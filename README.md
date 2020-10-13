@@ -2,7 +2,8 @@
 
 A handwired keyboard inspired on [Helix Keyboard](https://github.com/MakotoKurauchi/helix)
 and on Xah Lee's [No Chord Keyboard](http://xahlee.info/comp/ultimate_keyboard_layout.html).
-It uses the Arduino Micro (not Pro Micro) and is programmed with the QMK Framework.
+It uses the Arduino Micro (not Pro Micro), all 24 I/O pins are used. The
+firmware is programmed with the (QMK Framework)[https://docs.qmk.fm/].
 
 ![Photo](media/picture.png)
 
@@ -35,7 +36,7 @@ Bill of materials:
 * Silicone or rubber feet;
 * wires, soldering tin, soldering iron.
 
-The default *acrylic case* is composed of the following parts:
+The default **acrylic case** is composed of the following parts:
 
 * switch plate - 1x 3mm;
 * spacer - 4x 3mm (or 2x 6mm);
@@ -46,9 +47,9 @@ If you make the spacers with total height of 12mm, you have plenty of space to
 do the wiring inside. And since the keyboard is quite wide, it won't look very
 thick.
 
-![Photo](media/picture-foot.png)
+<img src="media/picture-foot.png" width="400" height="400">
 
-The foot is optional, and it can be attached to the bottom plate. Since it is
+The **foot** is optional, and it can be attached to the bottom plate. Since it is
 made of layers, it is possible to raise or lower the feet by adding or removing
 them. Be warry of the m3 screws for the feet, you should also account the
 thickness of the bottom plate.
