@@ -16,18 +16,23 @@ programmed with the Dvorak layout.
 In the Programmer mode the keys on the numeric row are replaced with symbols,
 reducing the need of using the Shift modifier.
 
-In addition, there is the Numpad layer, that can me momentarily activated.
+In addition, there is the Numpad layer, that can be momentarily activated.
 
 ## Build Guide
 
+![Photo](media/picture-bottom.png)
+
 Bill of materials:
 
-* 1x Acrylic case 92x Cherry MX switches, or compatibe;
+* 1x Acrylic case;
 * 1x [Arduino Micro](https://store.arduino.cc/usa/arduino-micro) or compatible (it is not a Pro Micro);
+* 92x Cherry MX switches, or compatibe;
+* 92x diodes;
+* 1x 0.91" Oled display module (128x32 px);
 * 8x M3 screws (the legnth depends on the tickness of the case);
 * 4x M3 screws (the length depends on the height of the foot);
-* 12x M3 nuts; 1x 0.91" Oled display module (128x32 px);
-* 92x diodes;
+* 12x M3 nuts;
+* Silicone or rubber feet;
 * wires, soldering tin, soldering iron.
 
 The default *acrylic case* is composed of the following parts:
@@ -40,6 +45,8 @@ The default *acrylic case* is composed of the following parts:
 If you make the spacers with total height of 12mm, you have plenty of space to
 do the wiring inside. And since the keyboard is quite wide, it won't look very
 thick.
+
+![Photo](media/picture-foot.png)
 
 The foot is optional, and it can be attached to the bottom plate. Since it is
 made of layers, it is possible to raise or lower the feet by adding or removing
