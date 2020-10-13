@@ -36,13 +36,15 @@ Bill of materials:
 * Silicone or rubber feet;
 * wires, soldering tin, soldering iron.
 
-    This project requires the **Arduino Micro** or compatible for the
-    controller board. This is different from the "Pro Micro", which is widely
-    used by the keyboard making community, and very available in the market.
-    The "Arduino Micro" makes all 24 I/O ports of the ATMega32u4 available,
-    while the "Pro Micro" makes just 18 of them available. Since this keyboards
-    uses **all the 24 I/O ports**, the "Arduino Micro" (or compatible) should
-    be used.
+> This project requires the **Arduino Micro** or compatible for the
+> controller board. This is different from the "Pro Micro", which is widely
+> used by the keyboard making community, and very available in the market.
+> The "Arduino Micro" makes all 24 I/O ports of the ATMega32u4 available,
+> while the "Pro Micro" makes just 18 of them available. Since this keyboards
+> uses **all the 24 I/O ports**, the "Arduino Micro" (or compatible) should
+> be used.
+
+![Photo](media/controller-board.png)
 
 The default **acrylic case** is composed of the following parts:
 
@@ -73,6 +75,9 @@ connections, the dioeds should be between the switch pin and the row, with the
 marked end (cathode) pointing to the row line.
 
 ![Oled](media/oled.png)
+
+In the media directory there is a PDF file with these diagrams, so you can use
+it if you find it handy.
 
 ## Flashing the Firmware
 
