@@ -4,7 +4,7 @@ A handwired keyboard inspired on [Helix Keyboard](https://github.com/MakotoKurau
 and on Xah Lee's [No Chord Keyboard](http://xahlee.info/comp/ultimate_keyboard_layout.html).
 It uses the Arduino Micro (not Pro Micro) and is programmed with the QMK Framework.
 
-![Photo](picture.png)
+![Photo](media/picture.png)
 
 ## Layout
 
@@ -46,15 +46,15 @@ made of layers, it is possible to raise or lower the feet by adding or removing
 them. Be warry of the m3 screws for the feet, you should also account the
 thickness of the bottom plate.
 
-![Wiring Diagram](wires.png)
+![Wiring Diagram](media/wires.png)
 
-![Photo](diodes.png)
+![Photo](media/diodes.png)
 
 The odd connections at the middle column also should have similar diode
 connections, the dioeds should be between the switch pin and the row, with the
 marked end (cathode) pointing to the row line.
 
-![Oled](oled.png)
+![Oled](media/oled.png)
 
 Some oled display modules comes with the SCL pin labeled as SCK - in this case
 it also should be wired to 3/SCL/PD0.
