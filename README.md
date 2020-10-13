@@ -26,7 +26,7 @@ Bill of materials:
 * 1x [Arduino Micro](https://store.arduino.cc/usa/arduino-micro) or compatible (it is not a Pro Micro);
 * 8x M3 screws (the legnth depends on the tickness of the case);
 * 4x M3 screws (the length depends on the height of the foot);
-* 12x M3 nuts; 1x 0.91" Oled display (128x32 px);
+* 12x M3 nuts; 1x 0.91" Oled display module (128x32 px);
 * 92x diodes;
 * wires, soldering tin, soldering iron.
 
@@ -50,14 +50,11 @@ thickness of the bottom plate.
 
 ![Photo](media/diodes.png)
 
-The odd connections at the middle column also should have similar diode
+The odd connections at the middle of the keyboard also should have similar diode
 connections, the dioeds should be between the switch pin and the row, with the
 marked end (cathode) pointing to the row line.
 
 ![Oled](media/oled.png)
-
-Some oled display modules comes with the SCL pin labeled as SCK - in this case
-it also should be wired to 3/SCL/PD0.
 
 ## Flashing the Firmware
 
