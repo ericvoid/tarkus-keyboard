@@ -32,7 +32,8 @@ Bill of materials:
 * 1x 0.91" Oled display module (128x32 px);
 * 8x M3 screws (the legnth depends on the tickness of the case);
 * 4x M3 screws (the length depends on the height of the foot);
-* 12x M3 nuts;
+* 2x M3 8mm screws (for the oled window);
+* 14x M3 nuts;
 * Silicone or rubber feet;
 * wires, soldering tin, soldering iron.
 
@@ -48,6 +49,7 @@ Bill of materials:
 
 The default **acrylic case** is composed of the following parts:
 
+* oled window - 1x 3mm (transparent);
 * switch plate - 1x 3mm;
 * spacer - 4x 3mm (or 2x 6mm);
 * bottom plate - 1x 3mm;
