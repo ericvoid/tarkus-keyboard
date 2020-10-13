@@ -26,7 +26,7 @@ In addition, there is the Numpad layer, that can be momentarily activated.
 Bill of materials:
 
 * 1x Acrylic case;
-* 1x [Arduino Micro](https://store.arduino.cc/usa/arduino-micro) or compatible (it is not a Pro Micro);
+* 1x [Arduino Micro](https://store.arduino.cc/usa/arduino-micro) or compatible;
 * 92x Cherry MX switches, or compatibe;
 * 92x diodes;
 * 1x 0.91" Oled display module (128x32 px);
@@ -35,6 +35,14 @@ Bill of materials:
 * 12x M3 nuts;
 * Silicone or rubber feet;
 * wires, soldering tin, soldering iron.
+
+    This project requires the **Arduino Micro** or compatible for the
+    controller board. This is different from the "Pro Micro", which is widely
+    used by the keyboard making community, and very available in the market.
+    The "Arduino Micro" makes all 24 I/O ports of the ATMega32u4 available,
+    while the "Pro Micro" makes just 18 of them available. Since this keyboards
+    uses **all the 24 I/O ports**, the "Arduino Micro" (or compatible) should
+    be used.
 
 The default **acrylic case** is composed of the following parts:
 
@@ -54,6 +62,8 @@ made of layers, it is possible to raise or lower the feet by adding or removing
 them. Be warry of the m3 screws for the feet, you should also account the
 thickness of the bottom plate.
 
+## Wiring Diagram
+
 ![Wiring Diagram](media/wires.png)
 
 ![Photo](media/diodes.png)
@@ -66,7 +76,7 @@ marked end (cathode) pointing to the row line.
 
 ## Flashing the Firmware
 
-Currently the firmware is not available by default in the QMK repository.
+Currently the firmware is not available in the QMK repository.
 
 To flash the firmware, copy the contents of the `src` directory of this repo
 to `~/qmk_firmwarke/keyboards/handwired/tarkus`. Then compile running:
