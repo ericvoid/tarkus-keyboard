@@ -93,3 +93,6 @@ to `~/qmk_firmwarke/keyboards/handwired/tarkus`. Then compile running:
 And flash it running:
 
     qmk compile -kb handwired/tarkus -km default
+
+Then QMK tool will request for resetting the controller. You can do that by
+pushing the button on the controller board.
